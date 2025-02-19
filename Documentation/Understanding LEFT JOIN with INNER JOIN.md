@@ -59,12 +59,13 @@ INNER JOIN TableC C ON A.ID = C.A_ID;
 
 | ID  | Name  | OrderID | PaymentID |
 |-----|-------|---------|-----------|
-| 1   | Ali   | 101     | 201 
-|3    | sara  | null    | 202       |
+| 1   | Ali   | 101     | 201       |
+| 3   | Sara  | NULL    | 202       |
+
 
 ### ❌ Why Are Some Records Missing?
 - **Reza (ID = 2) is removed** because he has no payment in `TableC`.
-- **Sara (ID = 3) is included because she has a payment in TableC, but no order in TableB, hence NULL for OrderID.
+- **Sara (ID = 3) is included because she has a payment in TableC, but no order in TableB, hence NULL for OrderID
 
 ---
 
