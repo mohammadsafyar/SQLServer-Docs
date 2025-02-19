@@ -96,4 +96,3 @@ This removes the extra overhead and improves query performance.
 
 ---
 
-💡 *If you have a specific scenario, modify the joins based on your actual data needs!* 🚀
